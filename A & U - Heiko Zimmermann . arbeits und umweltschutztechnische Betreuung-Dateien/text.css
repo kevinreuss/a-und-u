@@ -1,0 +1,17 @@
+/* Text allgemein */
+
+body,td,p,h1,h2,h3,ul,ol
+{
+font-family:VERDANA;
+font-size:12px;
+color:#000000;
+
+}
+
+body
+{
+overflow-y: scroll;
+margin: 0px;
+padding: 0px;
+
+}

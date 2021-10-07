@@ -1,0 +1,136 @@
+/* Vom IE mac 5.x verstecken. Fix für den Windows IE 3px-Text-Gap-Bug \*/
+* html #inhalt {              /* in td mit ID"" aufrufen*/
+width: 1024px;
+}
+/* Ende von IE5/mac verstecken*/
+
+/* unten */
+
+
+a.unten:link, a.unten:visited, a.unten:active {
+font-size:11px;
+text-decoration:none;
+color:#43A222;
+font-family:verdana;
+text-align:center;
+font-weight:bold;
+
+}
+
+a.unten:hover {
+font-size:11px;
+text-decoration:none;
+font-family:verdana;
+color:#000000;
+text-align:center;
+font-weight:bold;
+}
+
+/* unten2 */
+
+
+a.unten2:link, a.unten2:visited, a.unten2:active {
+font-size:14px;
+text-decoration:none;
+color:#000000;
+font-family:verdana;
+text-align:center;
+font-weight:none;
+
+}
+
+a.unten2:hover {
+font-size:14px;
+text-decoration:none;
+font-family:verdana;
+color:#43A222;
+text-align:center;
+font-weight:none;
+}
+
+/* Menu */
+
+
+a.menu:link,a.menu:active, a.menu:visited   {
+font-size:18px;
+background-image: url(../img/bg_mbu_1.png);
+background-repeat:repeat;
+display:block;                             /*für Anzeige mit Firefox */
+width:110px;
+height:26px;
+line-height:26px;
+text-decoration:none;
+color:#000000;
+font-family:verdana;
+}
+
+a.menu:hover {
+font-size:18px;
+background-image: url(../img/bg_mbu_2.png);
+background-repeat:repeat;
+display:block;
+width:110px;
+height:26px;
+line-height:26px;
+text-decoration:none;
+font-weight:none;
+font-family:verdana;
+color:#43A222;
+}
+
+/* Submenu */
+
+
+a.smenu:link,a.smenu:active, a.smenu:visited   {
+font-size:9px;
+background-image: url(../img/bg_sbu_1.png);
+background-repeat:repeat;
+display:block;                             /*für Anzeige mit Firefox */
+width:150px;
+height:24px;
+line-height:24px;
+text-decoration:none;
+color:#000000;
+font-family:verdana;
+}
+
+a.smenu:hover {
+font-size:9px;
+background-image: url(../img/bg_sbu_2.png);
+background-repeat:repeat;
+display:block;
+width:150px;
+height:24px;
+line-height:24px;
+text-decoration:none;
+font-weight:bold;
+font-family:verdana;
+color:#3398FD;
+}
+
+/* Head */
+a.head:link, a.head:visited, a.head:active {
+font-size:12px;
+text-decoration:none;
+color:#000000;
+font-family:verdana;
+text-align:center;
+}
+
+a.head:hover {
+font-size:12px;
+text-decoration:none;
+font-family:verdana;
+color:#007f00;
+text-align:center;
+}
+
+
+/* Link Active */
+
+a.active
+font-size:11px;
+font-weight:bold;
+color:#ffffff;
+font-family:verdana;
+}
